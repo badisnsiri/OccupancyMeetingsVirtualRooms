@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/back"
+    tools:context="com.quantylix.badis.nsiri.omvr.MainActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/font"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="32dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0">
+
+        <TextView
+            android:id="@+id/txtToDayDate"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="367dp"
+            android:layout_height="53dp"
+            android:text="  "
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintVertical_bias="0.02"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="347dp"
+            android:layout_height="146dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.355" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab1"
+        app:layout_constraintVertical_bias="0.994" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.095"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab2"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.212"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab3"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.318"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab4"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.422"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab5"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.53"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab6"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.621"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab7"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.736"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab8"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.845"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab9"
+        app:layout_constraintVertical_bias="0.994" />
+
+
+    <TextView
+        android:id="@+id/time10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clock"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.947"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/tab10"
+        app:layout_constraintVertical_bias="0.994" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="267dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/zeteamlg"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.012"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="283dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/quantylixlg"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.043"
+        tools:layout_editor_absoluteX="951dp" />
+
+    <Button
+    android:id="@+id/tab1"
+    android:layout_width="74dp"
+    android:layout_height="140dp"
+    android:text="Book ME"
+    android:background="@drawable/button_shape"
+    android:layout_marginLeft="8dp"
+    app:layout_constraintLeft_toLeftOf="@+id/font"
+    android:layout_marginRight="8dp"
+    app:layout_constraintRight_toRightOf="@+id/font"
+    app:layout_constraintTop_toTopOf="@+id/font"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="@+id/font"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintVertical_bias="0.903" />
+
+    <Button
+        android:id="@+id/tab2"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab3"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab4"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab5"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab6"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab7"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab8"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab9"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/tab10"
+        android:layout_width="74dp"
+        android:layout_height="140dp"
+        android:text="Book ME"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/font"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/font"
+        app:layout_constraintTop_toTopOf="@+id/font"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/font"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintVertical_bias="0.905" />
+
+
+</android.support.constraint.ConstraintLayout>
